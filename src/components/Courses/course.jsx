@@ -1,9 +1,9 @@
 import React from 'react';
 import HERO from '../../assets/hero.png'
 
-const Course = () => {
+const Course = ({ title, content }) => {
   return (
-    <section className="flex flex-col justify-center antialiased bg-gray-100 text-gray-600 w-full md:w-2/5 m-3">
+    <section className="flex flex-col justify-center antialiased bg-gray-100 text-gray-600 w-full md:w-2/5 md:m-3 m-0 mb-4">
       <div className="h-full">
         <div className="max-w-xs mx-auto">
           <div className="flex flex-col h-full bg-white shadow-lg rounded-lg overflow-hidden">
@@ -18,11 +18,11 @@ const Course = () => {
               <div className="flex-grow">
                 <header className="mb-3">
                   <a className="block focus:outline-none focus-visible:ring-2" href="#0">
-                    <h3 className="text-[22px] text-gray-900 font-extrabold leading-snug">The Ultimate JavaScript Course</h3>
+                    <h3 className="text-[22px] text-gray-900 font-extrabold leading-snug">{title}</h3>
                   </a>
                 </header>
                 <div className="mb-8">
-                  <p>The JavaScript course for everyone! Master JavaScript with projects, challenges and theory.</p>
+                  {content}
                 </div>
               </div>
               {/* <div className="flex justify-end space-x-2">
