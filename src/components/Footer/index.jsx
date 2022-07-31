@@ -111,8 +111,8 @@ const Footer = () => {
       </div>
 
       <div className="text-center text-gray-700 p-4" >
-        © 2021 Copyright:
-        <a className="text-gray-800" href="https://tailwind-elements.com/">TredingStroke</a>
+        © 2021 Copyright&nbsp;
+        <a className="text-gray-800" href="/">{' TredingStroke'}</a>
       </div>
     </footer>
   )

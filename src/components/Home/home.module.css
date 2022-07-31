@@ -12,7 +12,7 @@
 }
 
 .hero_intro {
-    @apply w-1/2 pt-8 md:pt-0 flex items-center md:items-start justify-start flex-col
+    @apply w-full md:w-1/2 pt-8 md:pt-0 flex items-center md:items-start justify-start flex-col
 }
 
 .heading {
@@ -20,7 +20,7 @@
 }
 
 .sub_heading {
-    @apply text-base md:text-xl font-medium font-mono
+    @apply text-base md:text-xl font-medium font-mono pt-2
 }
 
 .hero_picture {
@@ -28,7 +28,7 @@
 }
 
 .contact_card {
-    @apply bg-white m-4 p-4 rounded-md shadow-md
+    @apply bg-white m-2 md:m-4 p-2 md:p-4 rounded-md shadow-md
 }
 
 .nav_wrapper {
