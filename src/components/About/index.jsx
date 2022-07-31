@@ -13,7 +13,7 @@ const About = ({ styles, content, title, thumbnail }) => {
             </div>
           </div>
           <div className="mt-8 text-center">
-            <img src={thumbnail} alt="" srcset="" />
+            <img src={thumbnail} alt="" srcset="" className='w-full h-full' />
           </div>
         </div>
         <div className="flex items-center justify-center text-left">
