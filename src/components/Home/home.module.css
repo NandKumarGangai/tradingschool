@@ -3,8 +3,7 @@
 }
 
 .main_wrapper {
-    height: 80vh;
-    @apply max-w-7xl mx-auto px-4 sm:px-8
+    @apply max-w-7xl mx-auto px-4 sm:px-8 h-auto
 }
 
 .hero_wrapper {
